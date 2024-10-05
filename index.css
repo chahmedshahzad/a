@@ -1,0 +1,735 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-property{
+    display: flex;
+    justify-content: flex-start;
+   background-color: #33A137;
+   border-radius: 5px;
+
+}
+.nav-bar ul{
+   display: flex;
+   justify-content: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+}
+.nav-bar ul li{
+    list-style-type: none;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color:white;
+    margin: 10px 15px;
+}
+.nav-bar1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+.search{
+    display: flex;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-left: 250px;
+    width: 130px;
+    padding-right: 10px;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom:5px ;
+    border: 1px solid white;
+}
+.search input{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 150%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+}
+.add{
+    display: flex;
+    justify-content: center;
+}
+.add1 ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 9px;
+    padding-right: 10px;
+    border:1px solid white;
+    border-radius:5px;
+    background-color: white;
+}
+.add1 ul li{
+    list-style-type: none;
+}
+.add1 ul li a{
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    padding-top: 2px;
+}
+.urdu{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    cursor: pointer;
+}
+.flag{
+    margin-top: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.setting{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+.user{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.home-main ul{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 30px;
+    gap: 5px;
+    background-color: white;
+    padding-top: 10px;
+    
+}
+.home-main ul li{
+    list-style-type: none;
+    
+}
+.home-main ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: lighter;
+    color: grey;
+    
+}
+.background{
+    background-image: url(./image/imageBackgroundLarge.0dcf2357a5e8c3d5e7c92cd644af195e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+
+}
+.section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    margin: auto;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-weight: 200;
+
+
+}
+.section button{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5%;
+    color:black;
+    width: 13%;
+    height: 40px;
+    font-weight: bold;
+}
+.bottom{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #2a2928d7;
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    margin-top: 3%;
+}
+.bottom .sec{
+    width: 30%;
+    margin-left: 1%;
+    background-color: white;
+    height: 60%;
+    color: grey;
+    margin-top: 2%;
+    font-weight: lighter;
+    font-size: small;
+    padding-right: 22%;
+    cursor: pointer;
+
+}
+.sec-3{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20%;
+    gap: 250%;
+    margin-top: 30%;
+    color: black;
+    font-size: medium;
+}
+
+.bottom .sec1{
+    width: 50%;
+    margin-left: 1%;
+    background-color: white;
+    height: 60%;
+    color: black;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.bottom .sec2{
+    padding-top: 4%;
+    width: 16%;
+    margin-left: 1%;
+    background-color:#2B892F;
+    height: 60%;
+    color:white;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.card{
+    width: 32%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    
+    
+
+}
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px ;
+    align-items: center;
+}
+.card .head{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 10px;
+    font-size: large;
+    height:10vh;
+
+}
+.col{
+color: #2B892F;
+font-size: larger;
+}
+.fs{
+    font-size: large;
+}
+.center1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    gap: 40px;
+    cursor: pointer;
+    
+}
+.property-option{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.option{
+    padding: 10px;
+    background-color:#f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.option:hover {
+    background-color:rgba(11, 175, 11, 0.956);
+}
+.col1{
+    color: grey;
+}
+.col2{
+    color: grey;
+}
+.explore-more{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    font-size: small;
+    
+}
+.explore-button{
+    display: flex;
+}
+.explore-button h1{
+    display: grid;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 550;
+}
+.explore-much{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 8%;
+
+}
+.explore-button .head1{
+
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color:rgba(255, 166, 0, 0.133);
+    color:#F5CA71 ;
+    border-radius: 5px;
+    border: 1px solid #F5CA71;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    height: 90px;
+    padding: 15px 10px;
+
+}
+.explore-button :hover{
+    color: orange;
+}
+.explore-button10{
+    display: flex;
+    
+}
+.explore-button10 .head2{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color: #F1F9FE;
+    color: #8DCDF5;
+    border: 1PX solid#8DCDF5;
+    border-radius: 5px;
+    text-align: center;
+    width: 70px;
+    cursor: pointer;
+    height: 90px;
+    padding: 15px 10px;
+}
+.explore-button10  :hover{
+    color:#8DCDF5 ;
+}
+.head2 :hover{
+    color:#0d83cc ;
+}
+.explore-button11{
+    display: flex;
+}
+
+.explore-button11 .head3{
+
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #F4F9F7;
+    color: #B5DDC8;
+    border: 1px solid #B5DDC8;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+    height: 90px;
+    padding: 15px 10px;
+}
+.explore-button11 :hover{
+    color: #5ee99f;
+}
+.explore-button12{
+    display: flex;
+}
+.explore-button12 .head4{
+    width: 80px;
+    height: 90px;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color: #FEF7F7;
+    color: #FAB0A2;
+    border: 1px solid #FAB0A2;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 10px;
+}
+.explore-button12 :hover {
+    color:  #fa9985;
+}
+.explore-button13{
+    display: flex;
+}
+.explore-button13 .head5{
+    text-align: center;
+    width: 80px;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color: #F6FAF9;
+    color: #7ED8AA;
+    border: 1px solid #7ED8AA;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 90px;
+    padding: 15px 10px;
+}
+.explore-button13 :hover{
+    color:#6eedab ;
+}
+.explore-button14{
+    display: flex;
+}
+.explore-button14 .head6{
+    text-align: center;
+    width: 80px;
+    height: 90px;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color: #F5F7FF;
+    color: #6D7FBE;
+    border: 1px solid #6D7FBE;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 10px;
+}
+.explore-button14 :hover{
+    color: #5c74c9 ;
+}
+.explore-button15{
+    display: flex;
+}
+.explore-button15 .head7{
+    width: 80px;
+    height: 90px;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color: #ECF8F7;
+    color: #7AD0C9;
+    border: 1px solid #7AD0C9;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 10px;
+}
+.explore-button15 :hover{
+    color:#6fd8cf ;
+}
+.explore-button16 .head8{
+    width: 80px;
+    height: 90px;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color: #F9F5FF;
+    color: #8775AD;
+    border: 1px solid #8775AD;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 10px;
+}
+.explore-button16 :hover{
+    color:#7c62b5 ;
+}
+.explore-button16{
+    display: flex;
+}
+.top1{
+    margin-left: 10px;
+    font-size: x-small;
+}
+.explore-browse{
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
+.recent-search{
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 2px solid transparent;
+}
+.recent1 {
+    margin-top: 3%;
+    border: 1px solid grey;
+    width: 20%;
+    height: 150px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.recent2 :hover{
+    color: #0173B2;
+}
+.plot1{
+    color: blue;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: large;
+}
+.plot2{
+    color: black;
+    padding-top: 5px;
+    padding-left:20px;
+    font-weight: bold;
+}
+.plot3{
+    color: grey;
+    padding-top: 2px;
+    padding-left: 30px;
+
+}
+.titanium{
+    display: flex;
+    justify-content: center;
+    margin-top:5%;
+}
+.titanium1{
+    padding-left: 50px;
+    width: 150px;
+}
+.titanium2{
+    font-size:xx-small;
+    margin-left: 5px; 
+}
+
+.titanium10{
+    color: grey;
+    font-size: x-small;
+    margin-left: 5px;
+}
+.titanium-last{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.titanium-top{
+    display: flex;
+    justify-content: center;
+    margin-right:   40%;
+}
+.main{
+    display: flex;
+    margin-top: 5%;
+    padding-top: 5%;
+    justify-content: space-between;
+    background-color: #E7F2FD;
+    padding-left: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid #E7F2FD;
+    border-radius: 15PX;
+    margin-bottom: 10px;
+    
+}
+.project1{
+    font-weight: bold;
+    color: black;
+}
+.project2{
+    color: grey;
+    margin-top: 3%;
+}
+.zameen-project{
+    margin-left:10% ;
+    margin-top: 5%;
+}
+.sales{
+    display: flex;
+   
+  
+}
+.popular-location{
+    display: flex;
+   
+    
+}
+.popular-location1{
+    margin-top: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+    cursor: pointer;
+    color: grey;
+}
+.popular-location1 :hover{
+    color:green;
+}
+.top10{
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+.col12{
+    color: green;
+}
+.top11{
+    padding-top: 5%;
+    font-size: x-large;
+    margin-left: 5%;
+}
+.flats{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.main-flats{
+    display: flex;
+    justify-content: space-between;
+}
+.top12{
+    font-size: small;
+}
+.flat1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.flat1 :hover{
+    color: #2B892F;
+}
+.houses{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.top13{
+    font-size: small;
+}
+.main-house{
+    display: flex;
+    justify-content: space-between;
+}
+.house1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    cursor: pointer;
+    font-size: medium;
+}
+.house1 :hover{
+    color: #2B892F;
+}
+.popular-properties{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.top14{
+    font-size: medium;
+}
+.popular1{
+    display: flex;
+    justify-content: space-between;
+}
+.popular-property{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    cursor: pointer;
+    font-size: medium;
+}
+.popular-property :hover{
+    color: #2B892F;
+}
+.main-company{
+    background-color: #1F1F1F;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.com-1{
+    margin-bottom: 10%;
+    font-size: large;
+    
+
+}
+.company1 {
+    color: #919090;
+    padding-top: 5%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.company1 :hover{
+    color: white;
+}
+.com-2{
+    margin-left: 10%;
+    margin-top: 20%;
+
+}
+.roshan{
+    display: flex;
+    margin-right:20px ;
+}
+.connected1{
+    font-size: larger;
+    margin-top: 20%;
+
+}
+.roshan2{
+    font-size: small;
+}
+.social{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    padding-right: 30px;
+    font-size: xx-large;
+}
+.fc1{
+    color: #3B5B9B;
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
+    height: auto;
+}
+.ins1{
+    color: #851EB9;
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.twitter1{
+    color:#000000 ;
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.you1{
+    color: #E52D27;
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.linkd{
+    color: #0173B2;
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
+}
